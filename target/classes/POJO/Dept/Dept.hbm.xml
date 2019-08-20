@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+<!--    <class name="POJO.Dept.Dept" table="DEPT" schema="SCOTT" dynamic-update="true" lazy="true">-->
+<!--&lt;!&ndash;        &lt;!&ndash;dynamic-update="true":作用是只修改发生变化的属性&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;        <id name="DeptNo" type="java.lang.Short" column="DEPTNO">&ndash;&gt;-->
+<!--&lt;!&ndash;            &lt;!&ndash;为了避免主键生成器assigned造成的干扰,这里把主键生成器替换为increment&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;            <generator class="increment"></generator>&ndash;&gt;-->
+<!--&lt;!&ndash;        </id>&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <property name="DeptName" type="java.lang.String" column="DNAME"/>&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <property name="Location" type="java.lang.String" column="LOC"/>&ndash;&gt;-->
+
+<!--&lt;!&ndash;        &lt;!&ndash;&ndash;&gt;-->
+<!--&lt;!&ndash;            name:集合属性名&ndash;&gt;-->
+<!--&lt;!&ndash;            column:&ndash;&gt;-->
+<!--&lt;!&ndash;        &ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;        <set name="emps" cascade="save-update" inverse="true">  &lt;!&ndash;save-update&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;            <key column="DEPTNO"></key>&ndash;&gt;-->
+<!--&lt;!&ndash;            <one-to-many class="POJO.Emp.Emp"></one-to-many>&ndash;&gt;-->
+<!--&lt;!&ndash;        </set>&ndash;&gt;-->
+
+
+<!--    </class>-->
+
+</hibernate-mapping>

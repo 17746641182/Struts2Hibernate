@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="POJO.Employee.Employee" table="EMPLOYEE" schema="SCOTT">
+        <id name="empId" column="EMPID"/>
+        <property name="empName" column="EMPNAME"/>
+        <set name="projects" table="PROEMP" inverse="true">
+            <key column="RPROID"></key>
+            <many-to-many class="POJO.Employee.Employee" column="REMPID"></many-to-many>
+        </set>
+
+    </class>
+
+</hibernate-mapping>

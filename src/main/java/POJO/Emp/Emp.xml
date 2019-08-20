@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+<!--    <class name="POJO.Emp.Emp" table="EMP" schema="SCOTT">-->
+<!--        <id name="empNo" column="EMPNO" type="java.lang.Long"/>-->
+<!--        <property name="eName" column="ENAME" type="java.lang.String"/>-->
+<!--        <property name="job" column="JOB" type="java.lang.String"/>-->
+<!--        <property name="mgr" column="MGR" type="java.lang.Long"/>-->
+<!--        <property name="hireDate" column="HIREDATE" type="java.util.Date"/>-->
+<!--        <property name="sal" column="SAL" type="java.lang.Long"/>-->
+<!--        <property name="comm" column="COMM" type="java.lang.Long"/>-->
+<!--        &lt;!&ndash;EMP表外键DEPTNO和dept属性之间的映射&ndash;&gt;-->
+<!--        <many-to-one name="dept" column="DEPTNO" class="POJO.Dept.Dept"></many-to-one>-->
+<!--    </class>-->
+
+</hibernate-mapping>
